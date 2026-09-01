@@ -42,6 +42,7 @@ Cada equipo trabaja sobre un caso de negocio distinto y usa los archivos ubicado
 | Presentacion de los Retos | 11:30 AM | 12:00 PM | Juan Acosta/ Mauricio Ulloa |
 | ALMUERZO | 12:00 PM | 1:30 PM | Everyone |
 | Mesa de Trabajo - Desarrollo (16 Equipos de 05 personas c/u) | 1:30 PM | 3:30 PM | Everyone |
-| BREAK | 3:30 PM | 3:45 PM | Everyone |
-| Presentaciones resultados por equipos | 3:45 PM | 5:00 PM | Everyone |
-| Premiación | 5:00 PM | 5:30 PM | Juan Camilo P |
+| Tendencias en el mundo agéntico | 3:30 PM | 3:45 PM | Cristian Mahecha |
+| BREAK | 3:45 PM | 4:00 PM | Everyone |
+| Presentaciones resultados por equipos | 4:00 PM | 5:00 PM | Everyone |
+| Premiación | 5:00 PM | 5:30 PM | Juan Camilo Pinillo |
