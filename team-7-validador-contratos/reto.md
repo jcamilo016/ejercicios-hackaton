@@ -1,4 +1,4 @@
-# Reto 7: Validador de Contratos de Proveedores
+# Reto: Validador de Contratos de Proveedores
 
 ## Contexto
 
