@@ -1,0 +1,167 @@
+[
+  {
+    "id": "TRX-2026-0001",
+    "fecha": "2026-08-25T09:15:00Z",
+    "clienteId": "CLI-001",
+    "nombreOrigen": "Comercializadora Andina SAS",
+    "nombreDestino": "Global Tech Supplies LLC",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Estados Unidos",
+    "monto": 8500,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0002",
+    "fecha": "2026-08-25T09:42:00Z",
+    "clienteId": "CLI-002",
+    "nombreOrigen": "Inversiones del Pacifico Ltda",
+    "nombreDestino": "Maquinaria Industrial de Chile SpA",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Chile",
+    "monto": 32000,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0003",
+    "fecha": "2026-08-25T10:05:00Z",
+    "clienteId": "CLI-003",
+    "nombreOrigen": "Exportadora Cafetera del Norte SAS",
+    "nombreDestino": "Distribuciones Europa GmbH",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Alemania",
+    "monto": 74500,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0004",
+    "fecha": "2026-08-25T10:31:00Z",
+    "clienteId": "CLI-004",
+    "nombreOrigen": "Servicios Logísticos Integrados SAS",
+    "nombreDestino": "Orion Trading International Ltd",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Panamá",
+    "monto": 12400,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0005",
+    "fecha": "2026-08-25T11:18:00Z",
+    "clienteId": "CLI-005",
+    "nombreOrigen": "Minerales del Caribe SAS",
+    "nombreDestino": "Caribbean Raw Materials Corp",
+    "paisOrigen": "Colombia",
+    "paisDestino": "República Dominicana",
+    "monto": 19800,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0006",
+    "fecha": "2026-08-25T12:02:00Z",
+    "clienteId": "CLI-006",
+    "nombreOrigen": "Alimentos Naturales de Colombia SAS",
+    "nombreDestino": "Mercados del Sur SA",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Argentina",
+    "monto": 6400,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0007",
+    "fecha": "2026-08-25T13:26:00Z",
+    "clienteId": "CLI-007",
+    "nombreOrigen": "Constructora Horizonte SAS",
+    "nombreDestino": "Atlas Infrastructure Group",
+    "paisOrigen": "Colombia",
+    "paisDestino": "México",
+    "monto": 96000,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0008",
+    "fecha": "2026-08-25T14:10:00Z",
+    "clienteId": "CLI-008",
+    "nombreOrigen": "Textiles Metropolitanos SAS",
+    "nombreDestino": "Moda Ibérica SL",
+    "paisOrigen": "Colombia",
+    "paisDestino": "España",
+    "monto": 11200,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0009",
+    "fecha": "2026-08-25T15:03:00Z",
+    "clienteId": "CLI-009",
+    "nombreOrigen": "Nova Capital Partners Ltd",
+    "nombreDestino": "Inversiones Estratégicas del Caribe SA",
+    "paisOrigen": "Islas Vírgenes Británicas",
+    "paisDestino": "Colombia",
+    "monto": 45000,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0010",
+    "fecha": "2026-08-25T15:47:00Z",
+    "clienteId": "CLI-010",
+    "nombreOrigen": "Soluciones Médicas Integrales SAS",
+    "nombreDestino": "Health Equipment Canada Inc",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Canadá",
+    "monto": 15750,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0011",
+    "fecha": "2026-08-26T08:22:00Z",
+    "clienteId": "CLI-001",
+    "nombreOrigen": "Comercializadora Andina SAS",
+    "nombreDestino": "Proveedores Unidos del Perú SAC",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Perú",
+    "monto": 9200,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0012",
+    "fecha": "2026-08-26T09:06:00Z",
+    "clienteId": "CLI-011",
+    "nombreOrigen": "Agroexportaciones del Valle SAS",
+    "nombreDestino": "Eastern Commodities FZE",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Emiratos Árabes Unidos",
+    "monto": 68000,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0013",
+    "fecha": "2026-08-26T10:14:00Z",
+    "clienteId": "CLI-012",
+    "nombreOrigen": "Energía Renovable Colombiana SAS",
+    "nombreDestino": "Green Components Denmark AS",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Dinamarca",
+    "monto": 27500,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0014",
+    "fecha": "2026-08-26T11:39:00Z",
+    "clienteId": "CLI-013",
+    "nombreOrigen": "Daniela Restrepo Gómez",
+    "nombreDestino": "Santiago Morales Ruiz",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Costa Rica",
+    "monto": 3500,
+    "moneda": "USD"
+  },
+  {
+    "id": "TRX-2026-0015",
+    "fecha": "2026-08-26T13:12:00Z",
+    "clienteId": "CLI-014",
+    "nombreOrigen": "Tecnología Financiera del Centro SAS",
+    "nombreDestino": "Digital Payments Europe BV",
+    "paisOrigen": "Colombia",
+    "paisDestino": "Países Bajos",
+    "monto": 22500,
+    "moneda": "USD"
+  }
+]

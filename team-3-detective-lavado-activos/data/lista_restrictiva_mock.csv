@@ -1,0 +1,11 @@
+id,nombre,tipo,pais,motivo
+RST-001,Orion Trading International Ltd,Empresa,Panamá,Empresa sancionada por operaciones comerciales no autorizadas
+RST-002,Nova Capital Partners Ltd,Empresa,Islas Vírgenes Británicas,Entidad vinculada a movimientos financieros de origen no justificado
+RST-003,Eastern Commodities FZE,Empresa,Emiratos Árabes Unidos,Compañía incluida en lista de vigilancia por comercio restringido
+RST-004,Grupo Mercantil Solaris SA,Empresa,Panamá,Entidad relacionada con una jurisdicción sancionada
+RST-005,Alexander Petrov Ivanov,Persona,Rusia,Persona incluida en lista internacional de sanciones
+RST-006,Northstar Shipping Corporation,Empresa,Liberia,Empresa investigada por evasión de controles comerciales
+RST-007,María Elena Duarte,Persona,Venezuela,Persona expuesta a medidas restrictivas internacionales
+RST-008,Pacific Horizon Holdings Ltd,Empresa,Hong Kong,Entidad vinculada a una red financiera bajo investigación
+RST-009,Desert Falcon Imports LLC,Empresa,Emiratos Árabes Unidos,Empresa bloqueada por incumplimiento de controles de comercio exterior
+RST-010,Roberto Almeida Costa,Persona,Brasil,Persona asociada a operaciones financieras sancionadas

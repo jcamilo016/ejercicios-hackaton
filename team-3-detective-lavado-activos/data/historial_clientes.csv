@@ -1,0 +1,14 @@
+cliente_id,nombre_cliente,monto_promedio,monto_maximo_habitual,numero_operaciones,moneda
+CLI-001,Comercializadora Andina SAS,9000,15000,48,USD
+CLI-002,Inversiones del Pacifico Ltda,12000,20000,31,USD
+CLI-003,Exportadora Cafetera del Norte SAS,28000,50000,64,USD
+CLI-004,Servicios Logísticos Integrados SAS,11000,18000,27,USD
+CLI-005,Minerales del Caribe SAS,18000,30000,42,USD
+CLI-006,Alimentos Naturales de Colombia SAS,7000,12000,55,USD
+CLI-007,Constructora Horizonte SAS,35000,65000,19,USD
+CLI-008,Textiles Metropolitanos SAS,13000,22000,73,USD
+CLI-009,Nova Capital Partners Ltd,20000,35000,12,USD
+CLI-010,Soluciones Médicas Integrales SAS,15000,25000,38,USD
+CLI-011,Agroexportaciones del Valle SAS,30000,55000,24,USD
+CLI-012,Energía Renovable Colombiana SAS,26000,40000,46,USD
+CLI-013,Daniela Restrepo Gómez,4000,7500,17,USD
