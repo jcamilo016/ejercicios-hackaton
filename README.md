@@ -15,11 +15,18 @@ El repositorio está organizado en varios retos, cada uno asociado a un caso de 
 
 ## Estructura del repositorio
 
-- `team-1-negociador-alivios-financieros/` – Reto de negociación y alivios financieros.
-- `team-2-dashboard-conciliacion/` – Reto de conciliación y dashboard bancario.
-- `team-3-detective-lavado-activos/` – Reto de detección y análisis de lavado de activos.
-- `team-4-auditor-privacidad-datos/` – Reto de auditoría y privacidad de datos.
-- `team-5-multi-agente-otorgamiento-pyme/` – Reto de otorgamiento y evaluación de riesgos para PYMEs.
+- `team-1-negociador-alivios-financieros/` – reto de negociación y alivios financieros. Incluye el archivo `reto.md` con la especificación del caso, la carpeta `data/` con los clientes y políticas ficticias del ejercicio, y recursos visuales en `img/`.
+- `team-2-dashboard-conciliacion/` – reto de conciliación entre sistemas bancarios. Contiene la definición del caso en `reto.md`, los registros de ejemplo en `data/` (`log_core_bancario.csv` y `log_switch.csv`) y recursos gráficos en `img/`.
+- `team-3-detective-lavado-activos/` – reto de detección de lavado de activos. Incluye el planteamiento del problema en `reto.md`, archivos de entrada como `transferencias_internacionales.json`, `lista_restrictiva_mock.csv` y `historial_clientes.csv`, además de recursos visuales en `img/`.
+- `team-4-auditor-privacidad-datos/` – reto de auditoría y protección de datos sensibles. La carpeta incluye `reto.md`, el archivo de prueba `consultas_asesores.txt` y recursos gráficos en `img/` para apoyar la solución.
+- `team-5-multi-agente-otorgamiento-pyme/` – reto de evaluación de crédito para pequeñas y medianas empresas. Aquí se encuentra la especificación del problema en `reto.md` y los datos de entrada en `data/`, como `estados_financieros_pyme.txt` y `manual_riesgo_pymes.md`.
+- `team-6-cazador-fugas-capital/` – reto de detección de fugas de capital y análisis de inversión. Incluye el archivo `reto.md`, el catálogo de inversiones y el conjunto de datos de competidores y clientes en `data/`, además de recursos visuales en `img/`.
+- `team-7-validador-contratos/` – reto de validación y revisión de contratos. La carpeta contiene el planteamiento del problema en `reto.md`, la guía de checklist legal en `data/checklist_legal.md` y recursos visuales en `img/`.
+- `team-8-agente-onboarding-dinamico/` – reto de onboarding dinámico y experiencia de incorporación. La carpeta incluye la definición del caso en `reto.md` y archivos de datos en `data/` para simular la experiencia del cliente.
+- `team-9-triage-phishing/` – reto de triage y análisis de phishing. Contiene la especificación del caso en `reto.md` y reportes de ejemplo en `data/reportes_phishing.json`.
+- `team-10-agente-asesor-inversiones/` – reto de asesoría de inversiones. La carpeta incluye `reto.md`, datos de clientes en `data/Master_Clientes.csv` y noticias del mercado en `data/noticias_mercado.txt`.
+
+Cada equipo trabaja sobre un caso de negocio distinto y usa los archivos ubicados en `data/` para construir la solución propuesta durante el hackatón.
 
 ## Agenda del evento
 
