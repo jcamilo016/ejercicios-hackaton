@@ -1,0 +1,49 @@
+El cliente Juan Pérez, identificado con cédula 1032456789, solicita consultar el saldo de $5.250.000 de su cuenta 45781236901.
+---
+María Gómez informa que no recibió la transferencia realizada ayer. Su correo electrónico es maria.gomez@email.com y su teléfono de contacto es +57 300 456 7890.
+---
+El titular de la tarjeta 4111 1111 1111 1111 solicita bloquearla debido a una compra que no reconoce por COP 850000.
+---
+El cliente Carlos Rodríguez, con documento CC 79.456.123, pide actualizar el número de teléfono registrado en su cuenta. El nuevo número es 315 987 6543.
+---
+Laura Martínez solicita información sobre el saldo de su cuenta de ahorros número 0098-4567-1234. El saldo que aparece en el sistema es de $12.480.350,75.
+---
+El señor Andrés López reporta que recibió un mensaje sospechoso en el correo andres.lopez@empresa.co. Indica que su tarjeta termina en 4582, pero no proporcionó el número completo.
+---
+La cliente Diana Torres, identificada con cédula de ciudadanía 1.032.456.789, solicita enviar el extracto de la cuenta 123-456789-01 al correo diana.torres@gmail.com.
+---
+El cliente informa que realizó una transferencia por USD 1,250.00 desde la cuenta 98765432100 y que el dinero aún no ha llegado al destinatario.
+---
+Por favor, validar la información del cliente Felipe Castro. Documento 80456789, teléfono +57 (601) 456-7890 y correo felipe.castro@dominio.com.
+---
+La titular Natalia Ramírez solicita cancelar la tarjeta 5500-0000-0000-0004 y transferir el saldo disponible de COP 3.800.000 a su cuenta 00123456789.
+---
+El cliente Pedro Ramírez requiere actualizar los datos de la cuenta 0098-4567-1234. El número de radicado del caso es 2026-0045.
+---
+El asesor necesita confirmar si el número 1032456789 corresponde a una cédula. La consulta fue registrada en la sucursal 45.
+---
+Tengo 2 dudas sobre la sucursal 45 y necesito conocer su horario de atención.
+---
+La oficina atiende desde las 8:00 a. m. hasta las 5:00 p. m. de lunes a viernes.
+---
+El caso fue abierto hace 3 días y se encuentra en la etapa 2 del proceso de revisión.
+---
+Necesito conocer los requisitos para solicitar una tarjeta de crédito y el tiempo aproximado de aprobación.
+---
+La asesora solicita información general sobre los documentos necesarios para abrir una cuenta de ahorros. No se incluyen datos personales del cliente.
+---
+¿Cuál es la dirección y el horario de atención de la sucursal 12 ubicada en Medellín?
+---
+El cliente indica que el cajero automático número 204 no entregó el dinero solicitado. La operación ocurrió a las 14:35.
+---
+Se requiere revisar una transferencia internacional por EUR 2.450,50. El ordenante es Sofía Herrera, pasaporte PA1234567, cuenta de origen 87654321098 y correo sofia.herrera@correo.es.
+---
+El cliente Miguel Ángel Vargas presenta una reclamación relacionada con su cuenta 45001234987. Puede ser contactado en miguel.vargas+casos@correo.com o en el número +57 320 111 2233.
+---
+Ana María Ríos, con cédula 52 456 789, solicita conocer por qué se descontaron $95.600 de su cuenta corriente número 00012345678.
+---
+El cliente solicita cambiar la clave de su tarjeta. Por seguridad, no proporcionó números de identificación, cuenta, tarjeta, teléfono ni correo electrónico.
+---
+La operación por $150.000 aparece duplicada en la cuenta terminada en 7812. El cliente no compartió el número completo de la cuenta.
+---
+Necesito escalar el caso de José David Moreno, identificado con CC 1.145.678.901. Su cuenta es 45678901234, el saldo reclamado es COP 7.500.000 y su teléfono es 301-555-0198.

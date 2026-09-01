@@ -1,0 +1,145 @@
+============================================================
+           INFORMACION FINANCIERA DE LA EMPRESA
+============================================================
+
+Empresa / Razón social: DISTRIBUCIONES ANDINAS S.A.S.
+NIT: 901.456.789-2
+Sector económico: Distribución mayorista de alimentos
+Ciudad: Medellín, Colombia
+Periodo reportado: Enero a diciembre de 2025
+Moneda: Pesos colombianos
+Unidad de presentación: MILLONES DE COP
+
+Solicitud de crédito
+--------------------
+Producto solicitado: Crédito de capital de trabajo
+Valor solicitado: $650 millones
+Plazo solicitado: 36 meses
+Destino declarado: Compra de inventario y ampliación de la red
+de distribución en Antioquia.
+
+
+BALANCE GENERAL - corte al 31/12/2025
+------------------------------------------------------------
+
+ACTIVOS CORRIENTES
+
+  Caja y bancos ................................. 180
+  Cuentas comerciales por cobrar ................ 420
+  Inventarios ................................... 350
+  Anticipos y otros activos corrientes ..........  50
+
+  Total Activo Corriente:                       1.000
+
+ACTIVOS NO CORRIENTES
+
+  Propiedad, planta y equipo .................. 1.340
+  Depreciación acumulada ....................... (240)
+  Activos intangibles ........................... 100
+
+  Total activos no corrientes .................. 1.200
+
+TOTAL ACTIVOS .................................. 2.200
+
+
+PASIVOS CORRIENTES
+
+  Obligaciones financieras - corto plazo ........ 240
+  Proveedores nacionales ........................ 310
+  Impuestos y obligaciones laborales ............  90
+  Otros pasivos corrientes .......................  60
+
+  TOTAL PASIVO CORRIENTE =                        700
+
+PASIVOS A LARGO PLAZO
+
+  Deuda financiera LP ........................... 500
+
+Total pasivos no corrientes:                      500
+
+TOTAL PASIVOS .................................. 1.200
+
+
+PATRIMONIO
+
+  Capital social ................................ 600
+  Reservas ...................................... 162
+  Utilidad del ejercicio ........................ 238
+
+TOTAL PATRIMONIO ............................... 1.000
+
+Control contable:
+Pasivos + Patrimonio = 1.200 + 1.000 = 2.200
+
+
+ESTADO DE RESULTADOS - Año 2025
+------------------------------------------------------------
+
+Ingresos operacionales / ventas netas .......... 3.400
+Costo de ventas ............................... (2.380)
+
+UTILIDAD BRUTA ................................. 1.020
+
+Gastos administrativos .......................... 390
+Gastos de ventas ................................ 240
+
+Utilidad operacional (EBIT) ..................... 390
+
+Gastos financieros ............................... 95
+Otros gastos netos ............................... 15
+Impuesto de renta estimado ....................... 42
+
+UTILIDAD NETA DEL EJERCICIO ..................... 238
+
+
+INFORMACIÓN COMPLEMENTARIA
+------------------------------------------------------------
+
+EBITDA reportado: 480 millones COP
+Servicio anual total de la deuda: $310 millones
+Número de empleados: 47
+Antigüedad de la empresa: 9 años
+
+Composición de las ventas:
+- Cliente Mayorista Central S.A.: 24 %
+- Supermercados del Norte: 18 %
+- Tiendas y distribuidores independientes: 46 %
+- Cliente perdido durante 2025: 12 %
+
+Comportamiento de pagos:
+- La empresa no presenta obligaciones vencidas con entidades
+  financieras al cierre del periodo.
+- El plazo promedio de cobro pasó de 39 a 45 días.
+- Dos proveedores ampliaron el plazo de pago de 30 a 45 días.
+
+Garantías ofrecidas:
+- Bodega comercial con avalúo aproximado de $900 millones.
+- Inventarios de alta rotación como garantía complementaria.
+
+
+NOTAS DEL CONTADOR
+------------------------------------------------------------
+
+1. Durante el segundo semestre se perdió un cliente que representaba
+   aproximadamente el 12 % de las ventas anuales. La administración
+   informa que espera reemplazar ese volumen con nuevos distribuidores.
+
+2. El inventario aumentó 22 % frente al año anterior debido a compras
+   anticipadas realizadas para evitar incrementos de precios.
+
+3. Dentro de las cuentas por cobrar existen $38 millones con vencimiento
+   superior a 90 días. La gerencia considera recuperable este saldo, pero
+   todavía no existe un acuerdo de pago firmado.
+
+4. La compañía proyecta ventas por $3.750 millones para 2026. Esta cifra
+   corresponde a una estimación de la administración y no está auditada.
+
+5. Los estados financieros fueron preparados internamente y no cuentan
+   con dictamen de auditor externo.
+
+
+Responsable de la información: Laura Gómez - Contadora
+Fecha de elaboración: 20/02/2026
+
+Documento ficticio creado exclusivamente para demostraciones y pruebas.
+No contiene información financiera ni datos personales reales.
