@@ -1,0 +1,220 @@
+POLÍTICAS DE COBRANZA - BANCO DEMO
+Versión: 1.0
+Vigencia de simulación: 2026
+Moneda: COP
+
+IMPORTANTE
+Este documento contiene reglas ficticias creadas únicamente para una demostración.
+No representa políticas reales de una entidad financiera ni debe utilizarse para tomar
+decisiones crediticias reales.
+
+======================================================================
+1. OBJETIVO
+======================================================================
+
+El agente negociador puede ofrecer acuerdos de pago únicamente cuando todas las
+condiciones del cliente y de la propuesta cumplen estas políticas. Cuando una regla
+no pueda cumplirse, el agente debe detener la negociación y solicitar la revisión
+de un supervisor humano.
+
+======================================================================
+2. REGLAS SEGÚN EL SCORE CREDITICIO
+======================================================================
+
+El rango aplicable se determina usando el campo score_crediticio del cliente.
+
+RANGO A
+- Score mínimo: 750
+- Score máximo: 850
+- Tasa mensual: 0.80%
+- Plazo máximo: 36 cuotas
+- Período de gracia máximo: 60 días
+- Negociación automática: permitida
+
+RANGO B
+- Score mínimo: 700
+- Score máximo: 749
+- Tasa mensual: 1.00%
+- Plazo máximo: 30 cuotas
+- Período de gracia máximo: 45 días
+- Negociación automática: permitida
+
+RANGO C
+- Score mínimo: 650
+- Score máximo: 699
+- Tasa mensual: 1.20%
+- Plazo máximo: 24 cuotas
+- Período de gracia máximo: 30 días
+- Negociación automática: permitida
+
+RANGO D
+- Score mínimo: 600
+- Score máximo: 649
+- Tasa mensual: 1.50%
+- Plazo máximo: 18 cuotas
+- Período de gracia máximo: 15 días
+- Negociación automática: permitida
+
+RANGO E
+- Score mínimo: 550
+- Score máximo: 599
+- Tasa mensual: 1.80%
+- Plazo máximo: 12 cuotas
+- Período de gracia máximo: 0 días
+- Negociación automática: permitida con alerta de riesgo
+
+RANGO F
+- Score mínimo: 300
+- Score máximo: 549
+- Tasa mensual de referencia: 2.00%
+- Plazo máximo de referencia: 12 cuotas
+- Período de gracia: no permitido automáticamente
+- Negociación automática: no permitida
+- Acción requerida: escalar a supervisor
+
+======================================================================
+3. AJUSTES SEGÚN LOS DÍAS DE MORA
+======================================================================
+
+- De 1 a 30 días: se aplican los límites definidos por el score.
+- De 31 a 60 días: el plazo no puede superar 24 cuotas.
+- De 61 a 90 días: el plazo no puede superar 18 cuotas.
+- De 91 a 120 días: el plazo no puede superar 12 cuotas y no se permite
+  período de gracia automático.
+- Más de 120 días: la negociación automática no está permitida y el caso
+  debe escalarse a supervisor.
+
+Cuando existan varios límites de plazo, siempre debe aplicarse el más restrictivo.
+
+======================================================================
+4. CAPACIDAD DE PAGO
+======================================================================
+
+- La cuota mensual propuesta no puede superar el 30% de los ingresos mensuales
+  registrados del cliente.
+- La cuota tampoco puede superar la capacidad de pago declarada por el cliente
+  durante la conversación.
+- La cuota mensual mínima es de COP 100,000.
+- El saldo, los ingresos y la capacidad de pago deben ser mayores que cero.
+- Si ninguna alternativa cumple estos límites, el agente debe escalar el caso.
+
+Fórmula de referencia:
+cuota_máxima = mínimo(capacidad_de_pago_declarada, ingresos_mensuales * 0.30)
+
+======================================================================
+5. GENERACIÓN DE PROPUESTAS
+======================================================================
+
+El agente puede presentar como máximo tres alternativas:
+
+1. PLAN CUOTA BAJA
+   Utiliza el mayor plazo permitido por las políticas.
+
+2. PLAN EQUILIBRADO
+   Utiliza aproximadamente el 75% del plazo máximo permitido, redondeado al
+   número entero inferior y con un mínimo de 6 cuotas.
+
+3. PLAN PLAZO CORTO
+   Utiliza aproximadamente el 50% del plazo máximo permitido, redondeado al
+   número entero inferior y con un mínimo de 3 cuotas.
+
+Cada propuesta debe incluir:
+- Saldo financiado.
+- Tasa mensual aplicada.
+- Número de cuotas.
+- Valor estimado de la cuota.
+- Fecha del primer pago.
+- Costo total estimado.
+- Explicación de las reglas utilizadas.
+
+La cuota debe calcularse mediante una fórmula de cuota fija. No se permite
+mostrar una propuesta cuya cuota exceda la capacidad máxima del cliente.
+
+======================================================================
+6. DESCUENTOS Y CONDICIONES PROHIBIDAS
+======================================================================
+
+- El agente automático no puede ofrecer descuentos sobre el capital.
+- El agente no puede aplicar una tasa inferior a la definida para el rango del
+  cliente sin autorización de un supervisor.
+- El agente no puede superar el plazo máximo aplicable.
+- El agente no puede conceder un período de gracia superior al permitido.
+- El agente no puede modificar el score, los ingresos, el saldo ni los días de mora.
+- El agente no puede prometer eliminación de reportes en centrales de riesgo.
+- El agente no puede confirmar un acuerdo sin aceptación explícita del cliente.
+
+Toda solicitud de descuento de capital debe escalarse. El supervisor puede
+rechazarla o proponer una alternativa permitida, pero no puede aprobar un
+descuento de capital en esta simulación.
+
+======================================================================
+7. REVISIÓN Y FACULTADES DEL SUPERVISOR
+======================================================================
+
+El supervisor puede aprobar, rechazar o reemplazar una excepción. Para aprobar
+una excepción debe registrar una justificación.
+
+Límites del supervisor:
+- Puede reducir la tasa mensual hasta 0.20 puntos porcentuales respecto de la
+  tasa aplicable, sin bajar de 0.60% mensual.
+- Puede extender el plazo hasta 6 cuotas adicionales, sin superar 42 cuotas.
+- Puede extender el período de gracia hasta 30 días adicionales, sin superar
+  90 días en total.
+- No puede aprobar descuentos de capital.
+- No puede aprobar una cuota superior al 35% de los ingresos mensuales.
+
+Si la solicitud excede estos límites, el supervisor debe rechazarla o presentar
+una alternativa que sí los cumpla.
+
+======================================================================
+8. EVENTOS QUE REQUIEREN ESCALAMIENTO
+======================================================================
+
+El agente debe cambiar el estado a "Esperando revisión humana" cuando ocurra
+al menos una de estas situaciones:
+
+- Score inferior a 550.
+- Mora superior a 120 días.
+- Solicitud de descuento sobre el capital.
+- Solicitud de una tasa, plazo o período de gracia fuera de los límites.
+- Ninguna propuesta cumple la capacidad de pago.
+- Información financiera incompleta o inconsistente.
+- El cliente manifiesta desempleo, insolvencia, calamidad o incapacidad de pago.
+- El cliente solicita hablar con una persona.
+- El cliente utiliza lenguaje amenazante, ofensivo o agresivo.
+
+Palabras o expresiones de ejemplo para la demostración:
+- Agresividad: "demanda", "amenaza", "estafa", "incompetentes", "insulto".
+- Descuento: "descuento de capital", "rebaja de la deuda", "pagar menos capital".
+- Dificultad grave: "desempleado", "sin ingresos", "insolvencia", "calamidad".
+- Atención humana: "asesor", "supervisor", "persona", "atención humana".
+
+La detección por palabras clave solo se utiliza para esta demostración y no debe
+interpretarse como un sistema real de clasificación de lenguaje.
+
+======================================================================
+9. COMUNICACIÓN CON EL CLIENTE
+======================================================================
+
+- Usar un tono respetuoso, empático, claro y no intimidatorio.
+- No avergonzar ni culpabilizar al cliente por su situación financiera.
+- Explicar de manera sencilla por qué una propuesta está permitida o rechazada.
+- Informar que los cálculos son estimados y forman parte de una simulación.
+- Pedir confirmación antes de registrar el acuerdo.
+- Si hay escalamiento, explicar el motivo sin revelar reglas internas sensibles.
+
+======================================================================
+10. AUDITORÍA DE LA DEMOSTRACIÓN
+======================================================================
+
+La aplicación debe registrar en memoria:
+- ID del cliente.
+- Fecha y hora de la sesión.
+- Respuestas relevantes del cliente.
+- Propuestas generadas.
+- Reglas aplicadas.
+- Motivo de cualquier escalamiento.
+- Decisión y justificación del supervisor.
+- Resultado final de la negociación.
+
+FIN DEL DOCUMENTO
