@@ -33,14 +33,15 @@ Cada equipo trabaja sobre un caso de negocio distinto y usa los archivos ubicado
 | Actividad | Hora de inicio | Hora de fin | Responsable |
 |---|---:|---:|---|
 | Recepción invitados | 8:00 AM | 8:30 AM | Everyone |
-| Presentación de Agenda / Bienvenida | 8:40 AM | 9:00 AM | Mario Montalvo / Juan camilo P |
-| Presentación Estrategia Al del banco | 9:00 AM | 9:30 AM | Mario Montalvo |
-| Mensaje del Banco | 9:30 AM | 9:45 AM | Maria Fernanda Suarez/ Mateo R |
-| Caso Real: Plataforma desarrollo agencia BanPop | 9:45 AM | 10:00 AM | Mauricio U |
+| Presentación de agenda / Bienvenida | 8:30 AM | 8:40 AM | Juan Camilo Pinillo |
+| Presentación estrategia Al del banco | 8:40 AM | 9:00 AM | Mario Montalvo |
+| Desarrollo moderno de apps, Github Copilot (VSCode, CLI), Licencia, Tokenomics | 9:00 AM | 10:00 PM | Juan Acosta/Armando |
 | BREAK | 10:00 AM | 10:15 AM | Everyone |
-| Presentación Microsoft Github Copilot / Presentacion de los Retos | 10:15 AM | 12:15 PM | Juan Acosta |
-| ALMUERZO | 12:15 PM | 1:30 PM | Everyone |
+| Caso Real: Plataforma desarrollo agéntica Banco Popular | 10:15 AM | 11:00 AM | Mauricio Ulloa |
+| Github Copilot App, Github Copilot Plataforma | 11:00 AM | 11:30 PM | Lore/Mabel |
+| Presentacion de los Retos | 11:30 AM | 12:00 PM | Juan Acosta/ Mauricio Ulloa |
+| ALMUERZO | 12:00 PM | 1:30 PM | Everyone |
 | Mesa de Trabajo - Desarrollo (16 Equipos de 05 personas c/u) | 1:30 PM | 3:30 PM | Everyone |
 | BREAK | 3:30 PM | 3:45 PM | Everyone |
-| Presentaciones | 3:45 PM | 5:00 PM | Everyone |
+| Presentaciones resultados por equipos | 3:45 PM | 5:00 PM | Everyone |
 | Premiación | 5:00 PM | 5:30 PM | Juan Camilo P |
