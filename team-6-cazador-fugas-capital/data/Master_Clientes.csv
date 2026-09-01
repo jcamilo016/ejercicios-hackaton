@@ -1,0 +1,31 @@
+cliente_id,nombre,segmento,saldo_disponible,perfil_riesgo,plazo_preferido,liquidez_requerida,telefono_enmascarado
+CLI-001,Laura Gómez,Preferente,850000000,Moderado,180,Media,***-***-4821
+CLI-002,Carlos Rodríguez,Banca Privada,2450000000,Conservador,360,Baja,***-***-1937
+CLI-003,Sofía Martínez,Preferente,620000000,Agresivo,90,Alta,***-***-7354
+CLI-004,Andrés Herrera,Personal,185000000,Moderado,180,Media,***-***-2648
+CLI-005,Valentina Castro,Banca Privada,3100000000,Moderado,720,Baja,***-***-9012
+CLI-006,Miguel Torres,Preferente,475000000,Conservador,360,Media,***-***-4176
+CLI-007,Daniela Ramírez,Personal,92000000,Conservador,90,Alta,***-***-5583
+CLI-008,Felipe Mendoza,Preferente,1280000000,Agresivo,180,Media,***-***-6891
+CLI-009,Camila Vargas,Banca Privada,1850000000,Conservador,360,Baja,***-***-3205
+CLI-010,Julián Moreno,Personal,235000000,Moderado,90,Alta,***-***-8472
+CLI-011,Mariana López,Preferente,760000000,Moderado,180,Media,***-***-1169
+CLI-012,Sebastián Rojas,Banca Privada,4200000000,Agresivo,720,Baja,***-***-6730
+CLI-013,Paula Jiménez,Personal,68000000,Conservador,30,Alta,***-***-2941
+CLI-014,Nicolás Sánchez,Preferente,540000000,Conservador,360,Media,***-***-7856
+CLI-015,Isabella Ortiz,Banca Privada,2750000000,Moderado,180,Media,***-***-4380
+CLI-016,Alejandro Ruiz,Personal,145000000,Agresivo,90,Alta,***-***-9527
+CLI-017,Gabriela Díaz,Preferente,980000000,Moderado,360,Baja,***-***-6043
+CLI-018,Tomás Álvarez,Banca Privada,3600000000,Conservador,720,Baja,***-***-8715
+CLI-019,Natalia Cárdenas,Personal,310000000,Moderado,180,Media,***-***-3498
+CLI-020,Santiago Peña,Preferente,690000000,Agresivo,90,Alta,***-***-5274
+CLI-021,Luciana Restrepo,Banca Privada,1950000000,Agresivo,360,Media,***-***-7601
+CLI-022,Mateo Salazar,Personal,120000000,Conservador,30,Alta,***-***-1834
+CLI-023,Sara Quintero,Preferente,1120000000,Conservador,180,Baja,***-***-4962
+CLI-024,Juan Pablo Vélez,Banca Privada,5100000000,Moderado,720,Baja,***-***-8259
+CLI-025,Manuela Ospina,Personal,280000000,Agresivo,90,Alta,***-***-2375
+CLI-026,Martín Correa,Preferente,430000000,Moderado,180,Media,***-***-9184
+CLI-027,Emilia Giraldo,Banca Privada,2250000000,Conservador,360,Baja,***-***-5417
+CLI-028,Samuel Arias,Personal,55000000,Moderado,30,Alta,***-***-3068
+CLI-029,Antonia Mejía,Preferente,1500000000,Agresivo,180,Media,***-***-6742
+CLI-030,Joaquín Pardo,Banca Privada,3350000000,Moderado,360,Baja,***-***-1096

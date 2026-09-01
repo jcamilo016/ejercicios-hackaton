@@ -1,0 +1,21 @@
+entidad_id,nit,nombre,tipo_entidad,nivel_amenaza
+ENT-101,901100101-1,Nébula Bank,Neobanco,Alto
+ENT-102,901100102-2,NovaCapital,Plataforma de inversión,Alto
+ENT-103,901100103-3,RentaGo,Fintech,Medio
+ENT-104,901100104-4,Banco Horizonte Digital,Banco digital,Alto
+ENT-105,901100105-5,Inverzia,Plataforma de inversión,Medio
+ENT-106,901100106-6,Orbe Neo,Neobanco,Alto
+ENT-107,901100107-7,Quantum Valores,Comisionista de bolsa,Medio
+ENT-108,901100108-8,FinUp Colombia,Fintech,Bajo
+ENT-109,901100109-9,Kubo Finanzas,Fintech,Medio
+ENT-110,901100110-5,Vértice Inversiones,Plataforma de inversión,Alto
+ENT-111,901100111-6,Áurea Digital,Banco digital,Alto
+ENT-112,901100112-7,Prisma Broker,Comisionista de bolsa,Bajo
+ENT-113,901100113-8,Lumen Bank,Neobanco,Medio
+ENT-114,901100114-9,Delta Rendimiento,Plataforma de inversión,Alto
+ENT-115,901100115-1,Cobalto Pay,Fintech,Bajo
+ENT-116,901100116-2,Atlas Neo,Neobanco,Medio
+ENT-117,901100117-3,Zenit Capital,Comisionista de bolsa,Alto
+ENT-118,901100118-4,Marea Digital,Banco digital,Medio
+ENT-119,901100119-5,CriptoAndes,Plataforma cripto,Bajo
+ENT-120,901100120-1,Brújula Wealth,Plataforma de inversión,Bajo
