@@ -1,0 +1,16 @@
+cliente_id,nombre,perfil_riesgo,valor_portafolio,moneda,renta_fija,acciones,liquidez,oro
+CLI-001,Ana Torres,Conservador,120000000,COP,60,20,15,5
+CLI-002,Carlos Ruiz,Moderado,250000000,COP,40,45,10,5
+CLI-003,Laura Gómez,Agresivo,180000000,COP,20,70,5,5
+CLI-004,Miguel Castro,Moderado,95000000,COP,45,35,10,10
+CLI-005,Sofía Martínez,Conservador,310000000,COP,65,15,15,5
+CLI-006,Andrés Rojas,Agresivo,420000000,COP,15,75,5,5
+CLI-007,Valentina López,Moderado,165000000,COP,35,50,10,5
+CLI-008,Jorge Ramírez,Conservador,88000000,COP,55,20,15,10
+CLI-009,Camila Hernández,Agresivo,275000000,COP,25,65,0,10
+CLI-010,Daniel Mendoza,Moderado,145000000,COP,50,30,10,10
+CLI-011,Mariana Silva,Conservador,530000000,COP,70,10,15,5
+CLI-012,Felipe Vargas,Agresivo,205000000,COP,10,80,5,5
+CLI-013,Paula Restrepo,Moderado,360000000,COP,40,40,5,15
+CLI-014,Sebastián Ortiz,Conservador,110000000,COP,50,25,15,10
+CLI-015,Natalia Cárdenas,Agresivo,640000000,COP,20,65,5,10
