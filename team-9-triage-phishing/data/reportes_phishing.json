@@ -1,0 +1,302 @@
+[
+  {
+    "id": "REP-001",
+    "reportadoPor": {
+      "nombre": "Laura Gómez",
+      "correo": "laura.gomez@banco-demo.example",
+      "ip": "10.20.15.42",
+      "area": "Operaciones"
+    },
+    "fechaReporte": "2026-08-31T13:15:00Z",
+    "correo": {
+      "remitenteNombre": "Gestión Humana",
+      "remitenteEmail": "gestion.humana@banco-demo.example",
+      "destinatario": "laura.gomez@banco-demo.example",
+      "asunto": "Recordatorio: actualización de datos de contacto",
+      "cuerpo": "Hola Laura, recuerda revisar tus datos de contacto desde el portal interno. No es necesario responder a este mensaje ni compartir tu contraseña.",
+      "urls": [
+        "https://intranet.banco-demo.example/perfil"
+      ],
+      "adjuntos": []
+    },
+    "indicadoresEsperados": [
+      "remitente corporativo",
+      "dominio interno conocido",
+      "no solicita credenciales"
+    ],
+    "puntajeEsperado": 8,
+    "clasificacionEsperada": "Legítimo"
+  },
+  {
+    "id": "REP-002",
+    "reportadoPor": {
+      "nombre": "Andrés Martínez",
+      "correo": "andres.martinez@banco-demo.example",
+      "ip": "10.20.18.77",
+      "area": "Tecnología"
+    },
+    "fechaReporte": "2026-08-31T13:28:00Z",
+    "correo": {
+      "remitenteNombre": "Mesa de Servicio",
+      "remitenteEmail": "mesa.servicio@banco-demo.example",
+      "destinatario": "andres.martinez@banco-demo.example",
+      "asunto": "Cierre del ticket INC-4821",
+      "cuerpo": "El incidente INC-4821 fue resuelto. Puedes consultar el detalle en el portal corporativo de soporte.",
+      "urls": [
+        "https://soporte.banco-demo.example/tickets/INC-4821"
+      ],
+      "adjuntos": []
+    },
+    "indicadoresEsperados": [
+      "remitente corporativo",
+      "referencia a un ticket interno",
+      "enlace corporativo"
+    ],
+    "puntajeEsperado": 12,
+    "clasificacionEsperada": "Legítimo"
+  },
+  {
+    "id": "REP-003",
+    "reportadoPor": {
+      "nombre": "Camila Torres",
+      "correo": "camila.torres@banco-demo.example",
+      "ip": "10.20.22.16",
+      "area": "Mercadeo"
+    },
+    "fechaReporte": "2026-08-31T14:02:00Z",
+    "correo": {
+      "remitenteNombre": "Encuestas Cliente",
+      "remitenteEmail": "encuestas@opinion-clientes.example",
+      "destinatario": "camila.torres@banco-demo.example",
+      "asunto": "Invitación para responder una encuesta",
+      "cuerpo": "Queremos conocer tu opinión. Responde nuestra encuesta y participa por un obsequio. El enlace estará disponible hasta mañana.",
+      "urls": [
+        "https://acortador.example/a8K21"
+      ],
+      "adjuntos": []
+    },
+    "indicadoresEsperados": [
+      "remitente externo desconocido",
+      "enlace acortado",
+      "oferta de un premio"
+    ],
+    "puntajeEsperado": 38,
+    "clasificacionEsperada": "Sospechoso"
+  },
+  {
+    "id": "REP-004",
+    "reportadoPor": {
+      "nombre": "Felipe Ramírez",
+      "correo": "felipe.ramirez@banco-demo.example",
+      "ip": "10.20.30.91",
+      "area": "Compras"
+    },
+    "fechaReporte": "2026-08-31T14:20:00Z",
+    "correo": {
+      "remitenteNombre": "Distribuciones Andinas",
+      "remitenteEmail": "facturacion@distribuciones-andinas.example",
+      "destinatario": "felipe.ramirez@banco-demo.example",
+      "asunto": "Factura pendiente de revisión",
+      "cuerpo": "Buen día. Encontramos una diferencia en la factura de agosto. Por favor confirma si este mensaje corresponde a tu orden de compra antes de continuar.",
+      "urls": [],
+      "adjuntos": [
+        {
+          "nombre": "factura_agosto.pdf",
+          "tipoMime": "application/pdf",
+          "tamanoBytes": 184320
+        }
+      ]
+    },
+    "indicadoresEsperados": [
+      "remitente externo",
+      "factura no solicitada",
+      "adjunto PDF"
+    ],
+    "puntajeEsperado": 32,
+    "clasificacionEsperada": "Sospechoso"
+  },
+  {
+    "id": "REP-005",
+    "reportadoPor": {
+      "nombre": "Natalia Rojas",
+      "correo": "natalia.rojas@banco-demo.example",
+      "ip": "10.20.24.53",
+      "area": "Riesgos"
+    },
+    "fechaReporte": "2026-08-31T14:37:00Z",
+    "correo": {
+      "remitenteNombre": "Soporte Banco Demo",
+      "remitenteEmail": "notificaciones@banco-demo-soporte.example",
+      "destinatario": "natalia.rojas@banco-demo.example",
+      "asunto": "Su contraseña vence hoy",
+      "cuerpo": "Para evitar la suspensión de su cuenta, actualice su contraseña antes de las 18:00 en el portal de verificación.",
+      "urls": [
+        "https://banco-demo-soporte.example/actualizar-clave"
+      ],
+      "adjuntos": []
+    },
+    "indicadoresEsperados": [
+      "suplantación de soporte",
+      "dominio similar al corporativo",
+      "lenguaje de urgencia",
+      "solicitud de actualización de contraseña"
+    ],
+    "puntajeEsperado": 68,
+    "clasificacionEsperada": "Alto"
+  },
+  {
+    "id": "REP-006",
+    "reportadoPor": {
+      "nombre": "Carlos Méndez",
+      "correo": "carlos.mendez@banco-demo.example",
+      "ip": "10.20.35.28",
+      "area": "Tesorería"
+    },
+    "fechaReporte": "2026-08-31T14:51:00Z",
+    "correo": {
+      "remitenteNombre": "Proveedor Estratégico",
+      "remitenteEmail": "cobranzas@proveedor-estrategico.example",
+      "destinatario": "carlos.mendez@banco-demo.example",
+      "asunto": "Cambio urgente de cuenta bancaria",
+      "cuerpo": "Debido a una auditoría, el pago de hoy debe enviarse a una nueva cuenta. Abra el documento adjunto y confirme la modificación por este mismo medio.",
+      "urls": [],
+      "adjuntos": [
+        {
+          "nombre": "nuevas_instrucciones_pago.docm",
+          "tipoMime": "application/vnd.ms-word.document.macroEnabled.12",
+          "tamanoBytes": 96256
+        }
+      ]
+    },
+    "indicadoresEsperados": [
+      "cambio urgente de información bancaria",
+      "solicitud financiera inusual",
+      "documento con macros"
+    ],
+    "puntajeEsperado": 72,
+    "clasificacionEsperada": "Alto"
+  },
+  {
+    "id": "REP-007",
+    "reportadoPor": {
+      "nombre": "Diana Salazar",
+      "correo": "diana.salazar@banco-demo.example",
+      "ip": "10.20.41.64",
+      "area": "Banca Empresarial"
+    },
+    "fechaReporte": "2026-08-31T15:05:00Z",
+    "correo": {
+      "remitenteNombre": "Seguridad Banco Demo",
+      "remitenteEmail": "alertas@banco-dem0-seguridad.example",
+      "destinatario": "diana.salazar@banco-demo.example",
+      "asunto": "URGENTE: actividad irregular detectada",
+      "cuerpo": "Detectamos un acceso no autorizado. Su cuenta será bloqueada en 15 minutos. Ingrese de inmediato con su usuario, contraseña y código de verificación.",
+      "urls": [
+        "https://banco-dem0-seguridad.example/iniciar-sesion"
+      ],
+      "adjuntos": []
+    },
+    "indicadoresEsperados": [
+      "dominio con sustitución de la letra o por el número cero",
+      "amenaza de bloqueo inmediato",
+      "solicitud de credenciales",
+      "solicitud de código de verificación"
+    ],
+    "puntajeEsperado": 94,
+    "clasificacionEsperada": "Severo"
+  },
+  {
+    "id": "REP-008",
+    "reportadoPor": {
+      "nombre": "Jorge Cárdenas",
+      "correo": "jorge.cardenas@banco-demo.example",
+      "ip": "10.20.44.109",
+      "area": "Contabilidad"
+    },
+    "fechaReporte": "2026-08-31T15:19:00Z",
+    "correo": {
+      "remitenteNombre": "Cobro Jurídico",
+      "remitenteEmail": "notificaciones@cobro-juridico.example",
+      "destinatario": "jorge.cardenas@banco-demo.example",
+      "asunto": "Último aviso antes de proceso judicial",
+      "cuerpo": "Tiene una obligación vencida. Revise hoy el expediente adjunto para evitar el embargo de sus cuentas. Habilite el contenido si el sistema lo solicita.",
+      "urls": [
+        "http://198.51.100.24/consulta-expediente"
+      ],
+      "adjuntos": [
+        {
+          "nombre": "expediente_judicial.zip",
+          "tipoMime": "application/zip",
+          "tamanoBytes": 524288,
+          "contenidoDeclarado": [
+            "consulta_expediente.exe"
+          ]
+        }
+      ]
+    },
+    "indicadoresEsperados": [
+      "amenaza legal y lenguaje urgente",
+      "URL con dirección IP",
+      "archivo comprimido",
+      "ejecutable dentro del archivo",
+      "instrucción para habilitar contenido"
+    ],
+    "puntajeEsperado": 98,
+    "clasificacionEsperada": "Severo"
+  },
+  {
+    "id": "REP-009",
+    "reportadoPor": {
+      "nombre": "Sofía Herrera",
+      "correo": "sofia.herrera@banco-demo.example",
+      "ip": "10.20.27.38",
+      "area": "Servicio al Cliente"
+    },
+    "fechaReporte": "2026-08-31T15:33:00Z",
+    "correo": {
+      "remitenteNombre": "Microsoft 365",
+      "remitenteEmail": "admin@micros0ft-notices.example",
+      "destinatario": "sofia.herrera@banco-demo.example",
+      "asunto": "Buzón lleno: mensajes retenidos",
+      "cuerpo": "Su buzón alcanzó el límite. Consulte los mensajes retenidos y confirme su identidad para evitar que sean eliminados.",
+      "urls": [
+        "https://micros0ft-notices.example/quarantine?user=sofia.herrera%40banco-demo.example"
+      ],
+      "adjuntos": []
+    },
+    "indicadoresEsperados": [
+      "suplantación de proveedor de identidad",
+      "dominio visualmente similar",
+      "amenaza de eliminación de mensajes",
+      "solicitud de confirmar identidad"
+    ],
+    "puntajeEsperado": 84,
+    "clasificacionEsperada": "Severo"
+  },
+  {
+    "id": "REP-010",
+    "reportadoPor": {
+      "nombre": "Registro de prueba incompleto",
+      "correo": "registro.incompleto@banco-demo.example",
+      "ip": "10.20.99.10",
+      "area": "Calidad"
+    },
+    "fechaReporte": "fecha-no-valida",
+    "correo": {
+      "remitenteNombre": "Remitente sin dirección",
+      "destinatario": "",
+      "asunto": "",
+      "cuerpo": "Este registro está incompleto intencionalmente para probar la validación de datos.",
+      "urls": "no-es-un-arreglo",
+      "adjuntos": []
+    },
+    "indicadoresEsperados": [
+      "fecha inválida",
+      "remitenteEmail ausente",
+      "destinatario vacío",
+      "asunto vacío",
+      "urls con tipo incorrecto"
+    ],
+    "clasificacionEsperada": "Registro inválido"
+  }
+]
